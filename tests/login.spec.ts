@@ -22,4 +22,4 @@ test.describe('Login', () => {
     await loginPage.timeout(1000);
   });
 
-}); 
+});  
