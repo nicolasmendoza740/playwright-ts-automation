@@ -1,4 +1,4 @@
-import { test, expect } from '@playwright/test';
+import { test, expect } from './test-setup';
 import { LoginPage } from '../pages/LoginPage';
 
 test.describe('Login', () => {
@@ -20,7 +20,6 @@ test.describe('Login', () => {
 
     await expect(loginPage.errorMessage).toBeVisible();
     await loginPage.timeout(1000);
-    await loginPage.takeScreenshot('login-fallido');
   });
 
 }); 

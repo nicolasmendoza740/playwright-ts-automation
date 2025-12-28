@@ -26,9 +26,10 @@ export class BasePage {
   }
 
   async takeScreenshot(name: string) {
-    await this.page.screenshot({
+    const buffer = await this.page.screenshot({
       path: `screenshots/${name}.png`,
       fullPage: true
     });
+    return buffer;
   }
 }
