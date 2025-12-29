@@ -1,5 +1,8 @@
 name: "Run Playwright tests (manual)"
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
     inputs:
