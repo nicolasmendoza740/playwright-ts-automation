@@ -1,4 +1,4 @@
-name: "Run Playwright tests (manual)"
+name: "Playwright CI Manual Trigger"
 
 permissions:
   contents: read
