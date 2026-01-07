@@ -7,7 +7,7 @@
 ![Browser](https://img.shields.io/badge/Browser-Chromium-2EAD33?style=flat-square&logo=google-chrome&logoColor=white)
 ![Tests](https://img.shields.io/badge/Tests-10%20passing-success?style=flat-square)
 
-Suite de pruebas automatizadas. Implementa 1 caso de prueba con Page Object Model, realizando un ingreso a una aplicación
+Suite de pruebas automatizadas. Implementa 2 casos de prueba con Page Object Model, realizando un ingreso a una aplicación
 
 ---
 
@@ -46,13 +46,13 @@ Los reportes de ejecución quedan disponibles como artefactos durante 7 días.
 ## Estructura
 
 ```
-tests/
-├── registration.spec.ts          # 10 casos de prueba
+PLAYWGITH-TS-AUTOMATION
 ├── pages/
-│   └── RegistrationPage.ts       # Page Object Model
-└── data/
-    ├── registrationData.json     # Datos de prueba
-    └── testData.ts               # Helper TypeScript
+│   └── BasePage.ts       # Page Object Model
+|   └── LoginPage.ts      # Page Object Model
+└── test/
+    ├── login.spec.ts     # suite de pruebas
+    └── test-setup.ts               # Helper TypeScript
 ```
 
 Stack técnico: Playwright, TypeScript, POM
@@ -62,5 +62,5 @@ Stack técnico: Playwright, TypeScript, POM
 <div align="center">
   <img src="https://playwright.dev/img/playwright-logo.svg" alt="Playwright" width="80"/>
   <br/>
-  <sub>QA Automation Challenge • Telecentro • Noviembre 2025</sub>
+  <sub>QA Automation • Playwright • Enero 2026</sub>
 </div>
